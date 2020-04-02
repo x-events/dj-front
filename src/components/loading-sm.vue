@@ -1,0 +1,21 @@
+<template>
+    <div class="loading" v-if="loading"></div>
+</template>
+
+<script>
+import * as util from "@/assets/util"
+export default {
+    props:{
+        loading:{
+            type: Boolean,
+            default:function(){
+                return true
+            }
+        }
+    }
+}
+</script>
+
+<style scoped>
+.loading { width:100%; height:100%; position:absolute; left:0; top:0; background:url(../assets/img/loading.gif) center no-repeat #2e5692; z-index:20;}
+</style>

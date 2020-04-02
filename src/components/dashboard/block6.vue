@@ -1,0 +1,15 @@
+<template>
+  <div class="block anim hide">
+
+  </div>
+</template>
+
+<script>
+export default {
+  
+}
+</script>
+
+<style scoped>
+.block{background: url(../../assets/img/dashboard/block6.png) 0 0 /100% 100% no-repeat;}
+</style>

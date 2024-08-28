@@ -24,7 +24,7 @@
     "vue-router": "^3.0.7"
   },
   "devDependencies": {
-    "webpack": "4.35.3",
+    "webpack": "5.94.0",
     "@vue/cli-plugin-babel": "^3.9.2",
     "@vue/cli-plugin-eslint": "^3.9.2",
     "@vue/cli-service": "^3.9.2",
